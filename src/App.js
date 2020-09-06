@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './semantic-ui/semantic.min.css';
 
-function App() {
+function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="ui container">
+      <div className="ui grid">
+        <div className="row">
+          <div className="ui sixteen wide column" id="head">
+            <h1 className="apptitle">Hello World</h1>
+          </div>
+        </div>
+        <div className="ui tabular menu">
+          <a href="#" className="active item">Home</a>
+          <a href="#" className="active item">Register</a>
+          <a href="#" className="active item">Login</a>
+          <a href="#" className="active item">Room</a>
+          <a href="#" className="active item">Profile</a>
+        </div>
+        <div className="row" id="body">
+          <div className="ui nine wide column mainbody">
+            <h1>Main Content</h1>
+          </div>
+          <div className="ui six wide column announcement">
+            <h1>Notification</h1>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default Home;
