@@ -1,0 +1,95 @@
+.background-img {
+    background-image: url("../../public/image/Asset4.png");
+    width: 1368px;
+    height: 619px;
+    position: relative;
+}
+
+.logo-div {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    height: 75px;
+    width: 1200px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.logo-div img {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 400px;
+}
+
+.logo-div #button1 {
+    position: absolute;
+    top: 22.5px;
+    left: 900px;
+    height: 30px;
+    width: 140px;
+    background-color: #FF6138;
+    color: #F1F1F1;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo-div #button2 {
+    position: absolute;
+    top: 22.5px;
+    left: 1040px;
+    height: 30px;
+    width: 140px;
+    background-color: #00A287;
+    color: #F1F1F1;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.small-circle {
+    position: absolute;
+    top: 195px;
+    left: 185px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #00A287;
+}
+
+.intro-text {
+    position: absolute;
+    top: 198px;
+    left: 220px;
+    font-size: 15px;
+    color: #FFFF9C;
+    font-family: "Open Sans";
+}
+
+hr {
+    position: absolute;
+    top: 500px;
+    left: 185px;
+    height: 20px;
+    color: #000208;
+    width: 500px;
+}
+
+.big-text {
+    position: absolute;
+    top: 230px;
+    left: 185px;
+    width: 685px;
+    height: 275px;
+    font-size: 80px;
+    font-weight: bold;
+    white-space: pre-wrap;
+    color: #F1F1F1;
+    font-family: "Playfair Display";
+    line-height: 96px;
+}
+
+
