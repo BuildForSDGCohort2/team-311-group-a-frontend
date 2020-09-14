@@ -1,5 +1,5 @@
 import React from 'react';
-import './registerStyle.css'
+import '../styles/registerStyle.css'
 export default function Register() {
     return (
         <div>
@@ -19,7 +19,7 @@ export default function Register() {
                         <a class="btn-item" href="#">#</a>
                     </div>
                 </div>
-                <form action="/">
+                <form action="/register/data" method="POST">
                     <div class="title">
                         <i class="fas fa-pencil-alt"></i>
                         <h2>Register here</h2>
